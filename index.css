@@ -1,0 +1,215 @@
+
+*{
+    margin: 0%;
+    
+}
+::-webkit-scrollbar {display: none;}
+
+@font-face {
+    font-family: Size;
+    src: url("Seize.ttf");
+}
+@font-face {
+    font-family: Prespectiva;
+    src: url("Prespectiva.ttf");
+}
+@font-face {
+    font-family: Prespectiva;
+    src: url("Prespectiva.ttf");
+}
+
+
+#navegacion{
+    position: sticky;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    list-style: none;
+    background-color:#1B1A17;
+    width: 100%;
+    height: 12vh;
+    box-shadow: 0px 3px 20px black;
+    z-index: 1;
+}
+body{
+    background-color: #1B1A17;
+
+}
+.elementos1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100vh;
+    justify-content: space-between;
+
+}
+.elementos2{
+    position: relative;
+    color: #E6D5B8;
+    font-size: 1.3em;
+    width: 200px;
+    height: 50px;
+  
+}
+#a{
+    text-decoration: none;
+    color: #E6D5B8;
+    font-family: Prespectiva;
+}
+.elementos2:hover{
+    transform: translateY(-8px);
+    transition: 0.5s;
+    text-shadow:  0px 6px 0px #E45826, 0px 5px 0px #E45826, 0px 4px 0px #E45826, 0px 3px 0px #E45826, 0px 2px 0px #E45826, 0px 1px 0px #E45826;
+
+}
+.elementos2:after{
+    content: "";
+    position: absolute;
+    background-color: #E6D5B8;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+
+}
+.elementos2:hover:after{
+    width: 100%;
+}
+#FirstPage{
+    width: 100%;
+    height: 100vh}
+
+.titol{
+    width: auto;
+    height: auto;
+}
+
+.name1{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 8vw;
+    display: flex;
+    color: #F0A500;
+    font-family: Prespectiva;
+    text-shadow: 0px 10px 0px #E45826,0px 9px 0px #E45826, 0px 8px 0px #E45826, 0px 7px 0px #E45826, 0px 6px 0px #E45826, 0px 5px 0px #E45826, 0px 4px 0px #E45826, 0px 3px 0px #E45826, 0px 2px 0px #E45826, 0px 1px 0px #E45826, -5px 30px 5px black;
+    animation: 3s linear flotante infinite;
+    animation-delay: 0s;
+    
+}
+@keyframes flotante{
+
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    75%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+
+
+}
+
+.name2{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    font-size: 8vw;
+    display: flex;
+    color: #F0A500; 
+    font-family: Prespectiva;
+    text-shadow: 0px 10px 0px #E45826,0px 9px 0px #E45826, 0px 8px 0px #E45826, 0px 7px 0px #E45826, 0px 6px 0px #E45826, 0px 5px 0px #E45826, 0px 4px 0px #E45826, 0px 3px 0px #E45826, 0px 2px 0px #E45826, 0px 1px 0px #E45826, -5px 30px 5px black;
+    animation: 3s linear flotante infinite;
+    animation-delay: 0.5s;
+}
+.name3{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    font-size: 8vw;
+    display: flex;
+    color: #F0A500;
+    font-family: Prespectiva;
+    text-shadow: 0px 10px 0px #E45826,0px 9px 0px #E45826, 0px 8px 0px #E45826, 0px 7px 0px #E45826, 0px 6px 0px #E45826, 0px 5px 0px #E45826, 0px 4px 0px #E45826, 0px 3px 0px #E45826, 0px 2px 0px #E45826, 0px 1px 0px #E45826, -5px 30px 5px black;
+    animation: 3s linear flotante infinite;
+    animation-delay: 1s;
+}
+
+.Frase{
+    color: #E6D5B8;
+    position: absolute;
+    top: 90%;
+    left: 70%;
+}
+
+#SecondPage{
+    width: 100%;
+    height: 100vh;
+    color:#E6D5B8;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+
+}
+
+.Hello{
+    display: flex;
+    margin-top: -4%;
+    font-size: 2vw;
+
+}
+.foto{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 5%;
+}
+img{
+    border-radius: 20px;
+}
+#text{
+    margin-left: 5%;
+}
+.content{
+    display: flex;
+    text-align: justify;
+    margin-top: 15%;
+    margin-right: 10%;
+    width: 100%;
+    
+}
+#ThirdPage{
+    width: 100%;
+    height: 100vh;
+    color: #E6D5B8;
+
+}
+.Projects{
+    width: 100%;
+    height: 100vh;
+}
+#ThirdPage{
+  margin-top: 20%;
+}
+#Objetivos{
+    display: flex;
+    text-align: justify ;
+    margin-left: -17%;
+}
+#FourthPage{
+    color: #E6D5B8;
+}
