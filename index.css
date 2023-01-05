@@ -13,10 +13,6 @@
     font-family: Prespectiva;
     src: url("Prespectiva.ttf");
 }
-@font-face {
-    font-family: Prespectiva;
-    src: url("Prespectiva.ttf");
-}
 
 
 #navegacion{
@@ -28,8 +24,7 @@
     align-content: center;
     list-style: none;
     background-color:#1B1A17;
-    width: 100%;
-    height: 12vh;
+    width: 100vw;
     box-shadow: 0px 3px 20px black;
     z-index: 1;
 }
@@ -45,13 +40,15 @@ body{
     list-style: none;
     width: 100vh;
     justify-content: space-between;
+    margin-bottom: 2vh;
 
 }
 .elementos2{
     position: relative;
     color: #E6D5B8;
     font-size: 1.3em;
-    width: 200px;
+    /* width: 200px; */
+    padding: 5%;
     height: 50px;
   
 }
@@ -59,6 +56,7 @@ body{
     text-decoration: none;
     color: #E6D5B8;
     font-family: Prespectiva;
+    
 }
 .elementos2:hover{
     transform: translateY(-8px);
@@ -81,18 +79,20 @@ body{
     width: 100%;
 }
 #FirstPage{
-    width: 100%;
-    height: 100vh}
+    width: 100vw;
+    height: 100vh;
+    background-image:url('background2.jpg');
+    background-size:cover;
+}
 
 .titol{
     width: auto;
+    max-width: fit-content;
     height: auto;
 }
 
 .name1{
-    position: absolute;
-    top: 25%;
-    left: 8%;
+    position: flex;
     font-size: 8vw;
     display: flex;
     color: #F0A500;
@@ -125,9 +125,7 @@ body{
 }
 
 .name2{
-    position: absolute;
-    top: 35%;
-    left: 15%;
+    position: flex;
     font-size: 8vw;
     display: flex;
     color: #F0A500; 
@@ -137,9 +135,7 @@ body{
     animation-delay: 0.5s;
 }
 .name3{
-    position: absolute;
-    top: 45%;
-    left: 20%;
+    position: flex;
     font-size: 8vw;
     display: flex;
     color: #F0A500;
@@ -149,67 +145,51 @@ body{
     animation-delay: 1s;
 }
 
-.Frase{
-    color: #E6D5B8;
-    position: absolute;
-    top: 90%;
-    left: 70%;
-}
+/*Segundo pagina*/
 
 #SecondPage{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     color:#E6D5B8;
-    display: flex;
-    text-align: right;
-    justify-content: right;
 
 }
+.hilera1{
+    margin-top: 10%;
+}
 
-.Hello{
-    display: flex;
-    margin-top: -4%;
-    font-size: 2vw;
-
-}
-.foto{
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-left: 5%;
-}
-img{
-    border-radius: 20px;
-}
 #text{
-    margin-left: 5%;
-}
-.content{
-    display: flex;
     text-align: justify;
-    margin-top: 15%;
-    margin-right: 10%;
-    width: 100%;
-    
-}
+}   
+
+/*Tercera pagina*/
+
 #ThirdPage{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     color: #E6D5B8;
 
 }
-.Projects{
-    width: 100%;
-    height: 100vh;
+.espacio{
+    margin-top: 50vh;
 }
-#ThirdPage{
-  margin-top: 20%;
+#TituloObj{
+
 }
 #Objetivos{
-    display: flex;
-    text-align: justify ;
-    margin-left: -17%;
+
 }
+
+
+#Objetivos1{
+    text-align: justify;
+}
+
+
+
+/*Cuarta pagina*/
+
 #FourthPage{
     color: #E6D5B8;
 }
+/*Quina pagina, pagina de contacto*/
+
